@@ -1,5 +1,5 @@
 
-问题：执行 apt-get update，遇到 NO_PUBKEY 缺失问题
+执行 apt-get update，遇到 NO_PUBKEY 缺失问题：
 
 ```
 ... 由于没有公钥，下列签名无法进行验证： NO_PUBKEY XXXXXXXXXXXX
