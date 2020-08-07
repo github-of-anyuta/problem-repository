@@ -1,14 +1,10 @@
 
-问题：apt-get update，公钥缺失问题，导致无法安装：
+问题：执行 apt-get update，遇到 NO_PUBKEY 缺失问题
 
 ```
-... 由于没有公钥，下列签名无法进行验证： NO_PUBKEY 06EA41DE4F6C1E86
-```
-
+... 由于没有公钥，下列签名无法进行验证： NO_PUBKEY XXXXXXXXXXXX
 或
-
-```
-... because the public key is not available: : NO_PUBKEY B5B7720097BB3B58
+... because the public key is not available: : NO_PUBKEY XXXXXXXXXXXX
 ```
 
 解决办法：
